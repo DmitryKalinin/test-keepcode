@@ -169,17 +169,17 @@ var LeafIcon = L.Icon.extend({
         popupAnchor: [-3, -76]
     }
 });
-var azsIcon = new LeafIcon({ iconUrl: '../img/map-icons/azs.svg' }),
-    bankIcon = new LeafIcon({ iconUrl: '../img/map-icons/bank.svg' }),
-    bankIcon2 = new LeafIcon({ iconUrl: '../img/map-icons/bank2.svg' }),
-    cafeIcon = new LeafIcon({ iconUrl: '../img/map-icons/cafe.svg' }),
-    daycareIcon = new LeafIcon({ iconUrl: '../img/map-icons/daycare.svg' }),
-    hospitalIcon = new LeafIcon({ iconUrl: '../img/map-icons/hospital.svg' }),
-    hospitalIcon2 = new LeafIcon({ iconUrl: '../img/map-icons/hospital2.svg' }),
-    locationIcon = new LeafIcon({ iconUrl: '../img/map-icons/location.svg' }),
-    pullIcon = new LeafIcon({ iconUrl: '../img/map-icons/pull.svg' }),
-    shopIcon = new LeafIcon({ iconUrl: '../img/map-icons/shop.svg' }),
-    shopIcon2 = new LeafIcon({ iconUrl: '../img/map-icons/shop2.svg' });
+var azsIcon = new LeafIcon({ iconUrl: 'http://front.demo-labprodazh.ru/test-keepcode/img/map-icons/azs.svg' }),
+    bankIcon = new LeafIcon({ iconUrl: 'http://front.demo-labprodazh.ru/test-keepcode/img/map-icons/bank.svg' }),
+    bankIcon2 = new LeafIcon({ iconUrl: 'http://front.demo-labprodazh.ru/test-keepcode/img/map-icons/bank2.svg' }),
+    cafeIcon = new LeafIcon({ iconUrl: 'http://front.demo-labprodazh.ru/test-keepcode/img/map-icons/cafe.svg' }),
+    daycareIcon = new LeafIcon({ iconUrl: 'http://front.demo-labprodazh.ru/test-keepcode/img/map-icons/daycare.svg' }),
+    hospitalIcon = new LeafIcon({ iconUrl: 'http://front.demo-labprodazh.ru/test-keepcode/img/map-icons/hospital.svg' }),
+    hospitalIcon2 = new LeafIcon({ iconUrl: 'http://front.demo-labprodazh.ru/test-keepcode/img/map-icons/hospital2.svg' }),
+    locationIcon = new LeafIcon({ iconUrl: 'http://front.demo-labprodazh.ru/test-keepcode/img/map-icons/location.svg' }),
+    pullIcon = new LeafIcon({ iconUrl: 'http://front.demo-labprodazh.ru/test-keepcode/img/map-icons/pull.svg' }),
+    shopIcon = new LeafIcon({ iconUrl: 'http://front.demo-labprodazh.ru/test-keepcode/img/map-icons/shop.svg' }),
+    shopIcon2 = new LeafIcon({ iconUrl: 'http://front.demo-labprodazh.ru/test-keepcode/img/map-icons/shop2.svg' });
 
 var azs = L.marker([44.991, 38.938], { icon: azsIcon }).bindPopup('Заправка'),
     bank = L.marker([44.992, 38.939], { icon: bankIcon }).bindPopup('Банк'),
