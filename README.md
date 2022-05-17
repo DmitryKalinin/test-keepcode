@@ -2,7 +2,7 @@
 
 ## Start project
 ```sh
-npm init
+npm install
 gulp
 ```
 
