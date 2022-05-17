@@ -1,0 +1,34 @@
+section.infrastructure
+    h2.subtitle.element-animation Наша инфраструктура
+    #mapid
+        .inf-swiper__container 
+            .inf-navigation-group
+                .btn-navigation.inf-prev
+                .btn-navigation.inf-next
+            .inf-swiper
+                
+                .layers
+                    .item
+                        button(type="button", class="item__btn", data-layer="shopGroup")
+                            img(class="item__icon", src="img/map-icons/shop2.svg", alt="location")
+                            span(class="item__title") Магазины
+                    .item
+                        button(type="button", class="item__btn item__btn_active", data-layer="locationGroup")
+                            img(class="item__icon", src="img/map-icons/location.svg", alt="location")
+                            span(class="item__title") ЖК “Яблоновский”
+                    .item
+                        button(type="button", class="item__btn", data-layer="daycareGroup")
+                            img(class="item__icon", src="img/map-icons/daycare.svg", alt="location")
+                            span(class="item__title") Детский сад
+                    .item
+                        button(type="button", class="item__btn", data-layer="azsGroup")
+                            img(class="item__icon", src="img/map-icons/azs.svg", alt="location")
+                            span(class="item__title") АЗС
+                    .item
+                        button(type="button", class="item__btn", data-layer="hospitalGroup")
+                            img(class="item__icon", src="img/map-icons/hospital2.svg", alt="location")
+                            span(class="item__title") Поликлинника
+                    .item
+                        button(type="button", class="item__btn", data-layer="hospitalGroup")
+                            img(class="item__icon", src="img/map-icons/pull.svg", alt="location")
+                            span(class="item__title") Бассейн

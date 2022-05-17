@@ -1,0 +1,52 @@
+.title {
+    font-weight: 400;
+    font-size: 60px;
+    margin: 18px auto;
+}
+
+.title_bold {
+    font-weight: 700;
+}
+
+.caption {
+    font-size: 32px;
+    margin: 26px 0 0 0;
+}
+
+.caption_sm {
+    display: none;
+}
+
+.price {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 70px;
+    margin: 0 0 20px 0;
+}
+
+.subtitle {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 70px;
+    color: #212D55;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.subtitle_small {
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0;
+}
+
+.pagination__title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 15px;
+}
